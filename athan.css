@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(1 5 43);
+    color: white;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:ui-monospace;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px 0px 15px 0px;
+}
+
+input {
+    background-color: white;
+    border: 1px solid white;
+    color: gray;
+    padding: 5px;
+    margin-right: 3px;
+    outline-color: transparent;
+}
+
+.submit{
+    background-color: cadetblue;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    margin-right: 3px;
+    outline-color: transparent;
+}
+
+input::placeholder{
+    color: gray;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* gap: 10%; */
+}
+hr{
+    margin-bottom: 40px;
+}
+
+.pray{
+    background-color: rgba(8 0 0/0.2);
+    width: 141px;
+    text-align: center;
+    box-shadow: 0px 0px 9px 7px black;
+    margin: 0px 0px 21px 0px;
+}
+
+.pray p{
+    color: cadetblue;
+}
+
+.g{
+    height: 40vh;
+    background-image: url();
+    margin: 0;
+    background-size: cover;
+    background-repeat: round;
+    box-shadow: white 0px 0px 2px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    object-fit: fill;
+    height: 35vh;
+    image-rendering: pixelated;
+    filter: brightness(0.6);
+}
+
+.date{
+    width: fit-content;
+    margin-left: 20px;
+}
